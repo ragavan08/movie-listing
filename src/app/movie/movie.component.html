@@ -1,0 +1,13 @@
+@if (movieDetails){
+    <div class="jumbotron" >
+        <h1 class="display-4">{{movieDetails.movie}}</h1>
+        <a [href]="movieDetails.imdb_url" target="_blank" class="lead">IMDB</a>
+        
+        <hr class="my-4">
+        <p>{{movieDetails.rating}}</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Edit</a>
+        </p>
+      </div>
+
+}

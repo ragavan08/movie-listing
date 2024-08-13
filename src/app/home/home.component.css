@@ -1,0 +1,8 @@
+.card {
+    min-height: 100px;
+    cursor: pointer;
+    background-image: url('https://www.imdb.com/title/tt0111161/mediaviewer/rm1690056449/?ref_=tt_ov_i');
+}
+.card-body {
+    min-height: 50px;
+}
